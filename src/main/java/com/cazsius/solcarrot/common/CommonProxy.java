@@ -28,6 +28,6 @@ public class CommonProxy {
 	}
 
 	public EntityPlayer getSidedPlayer(MessageContext messageContext) {
-		return messageContext.getServerHandler().player;
+		return messageContext.getServerHandler().playerEntity;
 	}
 }
